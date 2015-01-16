@@ -1,0 +1,83 @@
+/** {
+	outline: 1px solid black;
+}*/
+
+html, body {
+	height: 100%;
+	/*width: 100%;*/
+	box-sizing: border-box;
+}
+
+.content {
+	margin: 50px 100px 0px 100px;
+	text-align: center;
+	background: url('http://1.bp.blogspot.com/_W0wHOyUc4qs/TFmKA3RumoI/AAAAAAAABp4/mQBsIGn75kE/s1600/Saddlebacklake.jpg');
+}
+
+.transbox {
+	width: 80%;
+	height: 650px;
+	background-color: #fff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+/* new task input form,  save and cancel buttons  */
+
+.new-task-form {
+	height: 25%;
+	font-family: 'verdana', sans-serif;
+	font-size: 1.5rem;
+}
+
+/*new opener button :) */
+.pull-right {
+	height: 20%;
+	font-size: 1.5rem;
+	font-family: 'verdana', sans-serif;
+}
+
+/* New List */
+.newList {
+	padding-top: 50px;
+	position: relative;
+	top: 50px;
+	height: 20%;
+	font-size: 1.5rem;
+	font-family: 'verdana', sans-serif;
+}
+.new-list {
+	height: 20%;
+	font-size: 1.5rem;
+	font-family: 'verdana', sans-serif;
+}
+a {
+	font-weight: lighter;
+	padding-top: 10px;
+	height: 20%;
+	font-family: 'verdana', sans-serif;
+	font-size: 1.5rem;
+}
+.list-group-item:hover {
+	font-family: 'Times New Roman', serif;
+	text-decoration: 
+}
+.list-group-item {
+	font-style: italic;
+	list-style-type: none;
+	text-decoration: underline;
+	color: black;
+	height: 20%;
+}
+/* panels active and archived || arrested haha */
+.panel {
+	position: relative;
+	height: 20%;
+	font-size: 1.5rem;
+	font-family: 'verdana', sans-serif;
+}
+
+
